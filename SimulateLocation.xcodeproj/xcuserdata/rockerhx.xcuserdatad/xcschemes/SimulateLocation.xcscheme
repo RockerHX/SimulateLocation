@@ -84,7 +84,7 @@
       <AdditionalOptions>
       </AdditionalOptions>
       <LocationScenarioReference
-         identifier = "../../SimulateLocation/&#x4e2d;&#x822a;&#x57ce;&#x5e02;&#x5e7f;&#x573a;.gpx"
+         identifier = "../../SimulateLocation/ZhongHang.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>
