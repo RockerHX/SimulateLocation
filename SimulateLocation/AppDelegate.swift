@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let location = LocationTransform.gcj2wgs(gcjLat: 30.5907848, gcjLng: 104.06513393)
+        print(location)
+        
+        
         return true
     }
 
