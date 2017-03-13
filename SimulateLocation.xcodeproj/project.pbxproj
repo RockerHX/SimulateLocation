@@ -15,6 +15,7 @@
 		C6412F0B1E76F03900F467FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6412F091E76F03900F467FE /* LaunchScreen.storyboard */; };
 		C6412F161E76F03900F467FE /* SimulateLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F151E76F03900F467FE /* SimulateLocationTests.swift */; };
 		C6412F211E76F03900F467FE /* SimulateLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */; };
+		C6412F2F1E76F05F00F467FE /* 中航城市广场.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C6412F2E1E76F05F00F467FE /* 中航城市广场.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C6412F1C1E76F03900F467FE /* SimulateLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulateLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulateLocationUITests.swift; sourceTree = "<group>"; };
 		C6412F221E76F03900F467FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6412F2E1E76F05F00F467FE /* 中航城市广场.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "中航城市广场.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,7 @@
 				C6412EFE1E76F03900F467FE /* AppDelegate.swift */,
 				C6412F001E76F03900F467FE /* FirstViewController.swift */,
 				C6412F021E76F03900F467FE /* SecondViewController.swift */,
-				C6412F041E76F03900F467FE /* Main.storyboard */,
-				C6412F071E76F03900F467FE /* Assets.xcassets */,
-				C6412F091E76F03900F467FE /* LaunchScreen.storyboard */,
-				C6412F0C1E76F03900F467FE /* Info.plist */,
+				C6412F301E76F06500F467FE /* Resources */,
 			);
 			path = SimulateLocation;
 			sourceTree = "<group>";
@@ -126,6 +125,18 @@
 				C6412F221E76F03900F467FE /* Info.plist */,
 			);
 			path = SimulateLocationUITests;
+			sourceTree = "<group>";
+		};
+		C6412F301E76F06500F467FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6412F041E76F03900F467FE /* Main.storyboard */,
+				C6412F071E76F03900F467FE /* Assets.xcassets */,
+				C6412F091E76F03900F467FE /* LaunchScreen.storyboard */,
+				C6412F0C1E76F03900F467FE /* Info.plist */,
+				C6412F2E1E76F05F00F467FE /* 中航城市广场.gpx */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6412F0B1E76F03900F467FE /* LaunchScreen.storyboard in Resources */,
+				C6412F2F1E76F05F00F467FE /* 中航城市广场.gpx in Resources */,
 				C6412F081E76F03900F467FE /* Assets.xcassets in Resources */,
 				C6412F061E76F03900F467FE /* Main.storyboard in Resources */,
 			);
