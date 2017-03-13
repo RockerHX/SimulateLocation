@@ -16,6 +16,7 @@
 		C6412F161E76F03900F467FE /* SimulateLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F151E76F03900F467FE /* SimulateLocationTests.swift */; };
 		C6412F211E76F03900F467FE /* SimulateLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */; };
 		C6412F2F1E76F05F00F467FE /* 中航城市广场.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C6412F2E1E76F05F00F467FE /* 中航城市广场.gpx */; };
+		C6412F321E7705AD00F467FE /* LocationTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F311E7705AD00F467FE /* LocationTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulateLocationUITests.swift; sourceTree = "<group>"; };
 		C6412F221E76F03900F467FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6412F2E1E76F05F00F467FE /* 中航城市广场.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "中航城市广场.gpx"; sourceTree = "<group>"; };
+		C6412F311E7705AD00F467FE /* LocationTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTransform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				C6412EFE1E76F03900F467FE /* AppDelegate.swift */,
 				C6412F001E76F03900F467FE /* FirstViewController.swift */,
 				C6412F021E76F03900F467FE /* SecondViewController.swift */,
+				C6412F311E7705AD00F467FE /* LocationTransform.swift */,
 				C6412F301E76F06500F467FE /* Resources */,
 			);
 			path = SimulateLocation;
@@ -277,6 +280,7 @@
 				C6412F031E76F03900F467FE /* SecondViewController.swift in Sources */,
 				C6412EFF1E76F03900F467FE /* AppDelegate.swift in Sources */,
 				C6412F011E76F03900F467FE /* FirstViewController.swift in Sources */,
+				C6412F321E7705AD00F467FE /* LocationTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
