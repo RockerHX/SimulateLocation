@@ -38,7 +38,7 @@
 
 首先，根据各自的喜好，选好你想要模拟的位置，这里以高德地图为例：
 
-![高德地图](http://upload-images.jianshu.io/upload_images/311224-e54ed3e35a0e1d66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![高德地图](/PNG/0.png)
 
 可以看到右边有显示坐标 ：
 ```
@@ -73,8 +73,8 @@ iPhone所需要的坐标是**WGS-84**，我们获取的是**GCJ-02**，这里我
 > 记得先把手机定位打开。
 
 真机运行一个新建的空的iOS项目，把上面我们新建的**gpx**文件拖到工程里，配置一下**Scheme**，然后真机运行即可。
-![gpx](http://upload-images.jianshu.io/upload_images/311224-d8749612bea37946.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![Scheme](http://upload-images.jianshu.io/upload_images/311224-7d5b9b10a83aa6ea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![gpx](/PNG/1.png)
+![Scheme](/PNG/2.png)
 
 这个时候千万别点**Stop**，直接**Home**键后台，再打开带定位的应用看看你当前的位置，484超开心。
 还原定位的方法，直接**Stop**即可。
