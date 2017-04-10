@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C61074651E82B3B5003EA65B /* WenHuaChanYe.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C61074641E82B3B5003EA65B /* WenHuaChanYe.gpx */; };
 		C6412EFF1E76F03900F467FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412EFE1E76F03900F467FE /* AppDelegate.swift */; };
 		C6412F011E76F03900F467FE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F001E76F03900F467FE /* FirstViewController.swift */; };
 		C6412F031E76F03900F467FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F021E76F03900F467FE /* SecondViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C61074641E82B3B5003EA65B /* WenHuaChanYe.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = WenHuaChanYe.gpx; sourceTree = "<group>"; };
 		C6412EFB1E76F03900F467FE /* SimulateLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulateLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6412EFE1E76F03900F467FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6412F001E76F03900F467FE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				C6412F091E76F03900F467FE /* LaunchScreen.storyboard */,
 				C6412F0C1E76F03900F467FE /* Info.plist */,
 				C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */,
+				C61074641E82B3B5003EA65B /* WenHuaChanYe.gpx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -210,7 +213,7 @@
 				TargetAttributes = {
 					C6412EFA1E76F03900F467FE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HG8SBJDJPT;
+						DevelopmentTeam = Y747X47RCY;
 						ProvisioningStyle = Automatic;
 					};
 					C6412F101E76F03900F467FE = {
@@ -254,6 +257,7 @@
 				C6412F2F1E76F05F00F467FE /* ZhongHang.gpx in Resources */,
 				C6412F081E76F03900F467FE /* Assets.xcassets in Resources */,
 				C6412F061E76F03900F467FE /* Main.storyboard in Resources */,
+				C61074651E82B3B5003EA65B /* WenHuaChanYe.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HG8SBJDJPT;
+				DEVELOPMENT_TEAM = Y747X47RCY;
 				INFOPLIST_FILE = SimulateLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.HXKit.SimulateLocation;
@@ -446,7 +450,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HG8SBJDJPT;
+				DEVELOPMENT_TEAM = Y747X47RCY;
 				INFOPLIST_FILE = SimulateLocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cc.caver.HXKit.SimulateLocation;
