@@ -18,6 +18,8 @@
 		C6412F211E76F03900F467FE /* SimulateLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F201E76F03900F467FE /* SimulateLocationUITests.swift */; };
 		C6412F2F1E76F05F00F467FE /* ZhongHang.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */; };
 		C6412F321E7705AD00F467FE /* LocationTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6412F311E7705AD00F467FE /* LocationTransform.swift */; };
+		C6904EB61EAE3DD800F4EF40 /* transform.html in Resources */ = {isa = PBXBuildFile; fileRef = C6904EB41EAE3DD800F4EF40 /* transform.html */; };
+		C6904EB71EAE3DD800F4EF40 /* transform.js in Resources */ = {isa = PBXBuildFile; fileRef = C6904EB51EAE3DD800F4EF40 /* transform.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		C6412F221E76F03900F467FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6412F2E1E76F05F00F467FE /* ZhongHang.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ZhongHang.gpx; sourceTree = "<group>"; };
 		C6412F311E7705AD00F467FE /* LocationTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTransform.swift; sourceTree = "<group>"; };
+		C6904EB41EAE3DD800F4EF40 /* transform.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = transform.html; sourceTree = "<group>"; };
+		C6904EB51EAE3DD800F4EF40 /* transform.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = transform.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 		C6412F301E76F06500F467FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C6904EB31EAE3DD800F4EF40 /* Transform */,
 				C6412F041E76F03900F467FE /* Main.storyboard */,
 				C6412F071E76F03900F467FE /* Assets.xcassets */,
 				C6412F091E76F03900F467FE /* LaunchScreen.storyboard */,
@@ -143,6 +148,15 @@
 				C61074641E82B3B5003EA65B /* WenHuaChanYe.gpx */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6904EB31EAE3DD800F4EF40 /* Transform */ = {
+			isa = PBXGroup;
+			children = (
+				C6904EB41EAE3DD800F4EF40 /* transform.html */,
+				C6904EB51EAE3DD800F4EF40 /* transform.js */,
+			);
+			path = Transform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +270,10 @@
 				C6412F0B1E76F03900F467FE /* LaunchScreen.storyboard in Resources */,
 				C6412F2F1E76F05F00F467FE /* ZhongHang.gpx in Resources */,
 				C6412F081E76F03900F467FE /* Assets.xcassets in Resources */,
+				C6904EB61EAE3DD800F4EF40 /* transform.html in Resources */,
 				C6412F061E76F03900F467FE /* Main.storyboard in Resources */,
 				C61074651E82B3B5003EA65B /* WenHuaChanYe.gpx in Resources */,
+				C6904EB71EAE3DD800F4EF40 /* transform.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="./transform.js"></script>  
+</head>
+
+
+<body>
+
+	<div id="main">
+		<p>lat：</p>
+		<input type="number" name="lat" id="lat_input">
+		<p>lon：</p>
+		<input type="number" name="lon" id="lon_input">
+	</div>
+
+	<div>
+		<p><input type="button" value="获取" onclick="clicked()"></p>
+	</div>
+	<div>
+		<p id="lat_text">lat:</p>
+		<p id="lon_text">lon:</p>
+	</div>
+
+<script type="text/javascript">
+function clicked() {
+	var lat_input = document.getElementById("lat_input");
+	var lon_input = document.getElementById("lon_input");
+	var lat_text = document.getElementById("lat_text");
+	var lon_text = document.getElementById("lon_text");
+	
+	var wgs = gcj2wgs(lat_input.value, lon_input.value);
+	lat_text.innerHTML = "lat：" + wgs.lat;
+	lon_text.innerHTML = "lon：" + wgs.lng;
+}
+</script>
+
+</body>
+
+</html>
