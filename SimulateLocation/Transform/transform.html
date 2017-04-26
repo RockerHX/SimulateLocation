@@ -29,26 +29,22 @@
 	</div>
 
 <script type="text/javascript">
-function gcj2wgs_clicked() {
-	var lat_input = document.getElementById("lat_input");
-	var lon_input = document.getElementById("lon_input");
-	var lat_text = document.getElementById("lat_text");
-	var lon_text = document.getElementById("lon_text");
-	
-	var wgs = gcj2wgs(lat_input.value, lon_input.value);
-	lat_text.innerHTML = "lat:" + wgs.lat;
-	lon_text.innerHTML = "lon:" + wgs.lng;
-}
-function bd2wgs_clicked() {
-	var lat_input = document.getElementById("lat_inputq");
-	var lon_input = document.getElementById("lon_input");
-	var lat_text = document.getElementById("lat_text");
-	var lon_text = document.getElementById("lon_text");
-	
-	var wgs = bd2wgs(lat_input.value, lon_input.value);
-	lat_text.innerHTML = "lat:" + wgs.lat;
-	lon_text.innerHTML = "lon:" + wgs.lng;
-}
+
+    var lat_input = document.getElementById("lat_input");
+    var lon_input = document.getElementById("lon_input");
+    var lat_text = document.getElementById("lat_text");
+    var lon_text = document.getElementById("lon_text");
+
+    function gcj2wgs_clicked() {
+        var wgs = gcj2wgs(lat_input.value, lon_input.value);
+        lat_text.innerHTML = "lat:" + wgs.lat;
+        lon_text.innerHTML = "lon:" + wgs.lng;
+    }
+    function bd2wgs_clicked() {
+        var wgs = bd2wgs(lat_input.value, lon_input.value);
+        lat_text.innerHTML = "lat:" + wgs.lat;
+        lon_text.innerHTML = "lon:" + wgs.lng;
+    }
 </script>
 
 </body>
